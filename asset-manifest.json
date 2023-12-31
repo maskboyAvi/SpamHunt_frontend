@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Spamhunt_frontend/static/css/main.bde136e0.css",
+    "main.js": "/Spamhunt_frontend/static/js/main.4ab7b48e.js",
+    "static/media/hero_main.svg": "/Spamhunt_frontend/static/media/hero_main.ded828a72d758419d22030a17249ca6a.svg",
+    "static/media/logo.png": "/Spamhunt_frontend/static/media/logo.8c13b0ab7544d4c0dc80.png",
+    "static/media/icon-github.svg": "/Spamhunt_frontend/static/media/icon-github.3d24443da72733cd4a72f23458eb6830.svg",
+    "static/media/icon-instagram.svg": "/Spamhunt_frontend/static/media/icon-instagram.54d3962efa2aa6085b776d1816557a6a.svg",
+    "index.html": "/Spamhunt_frontend/index.html",
+    "static/media/icon-linkedin.svg": "/Spamhunt_frontend/static/media/icon-linkedin.92a1e783b4e805a37146f00c4a979aa2.svg",
+    "static/media/icon-gmail.svg": "/Spamhunt_frontend/static/media/icon-gmail.ed0b0930efe34a88dcd41786e8a1ae55.svg",
+    "static/media/bg-simplify-section-desktop.svg": "/Spamhunt_frontend/static/media/bg-simplify-section-desktop.ca40c1eebd150b1cc7dc.svg",
+    "static/media/bg-simplify-section-mobile.svg": "/Spamhunt_frontend/static/media/bg-simplify-section-mobile.a79c8471fa284189552d.svg",
+    "static/media/bg-tablet-pattern.svg": "/Spamhunt_frontend/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e.svg",
+    "main.bde136e0.css.map": "/Spamhunt_frontend/static/css/main.bde136e0.css.map",
+    "main.4ab7b48e.js.map": "/Spamhunt_frontend/static/js/main.4ab7b48e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bde136e0.css",
+    "static/js/main.4ab7b48e.js"
+  ]
+}

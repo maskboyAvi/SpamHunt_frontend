@@ -19,7 +19,7 @@ function SmsForm() {
       sms: smsContent,
     };
     axios
-      .post("http://16.171.166.42/sms/", sms)
+      .post("http://13.53.130.115/sms/", sms)
       .then((response) => {
         setAnswer(response.data);
         // Fetch updated SMS data after posting new SMS
@@ -32,7 +32,7 @@ function SmsForm() {
 
   const fetchSmsData = () => {
     axios
-      .get("http://16.171.166.42/sms/")
+      .get("http://13.53.130.115/sms/")
       .then((response) => {
         // Reverse the order of SMS data
         setSmsData(response.data.payload.reverse());

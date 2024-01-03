@@ -19,7 +19,7 @@ function EmailForm() {
       mail: mailContent,
     };
     axios
-      .post("http://16.171.166.42/mail/", mail)
+      .post("http://13.53.130.115/mail/", mail)
       .then((response) => {
         setAnswer(response.data);
         // Fetch updated mail data after posting new mail
@@ -32,7 +32,7 @@ function EmailForm() {
 
   const fetchMailData = () => {
     axios
-      .get("http://16.171.166.42/mail/")
+      .get("http://13.53.130.115/mail/")
       .then((response) => {
         // Reverse the order of mail data
         setMailData(response.data.payload.reverse());

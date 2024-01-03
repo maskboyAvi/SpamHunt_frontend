@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           {/* Logo */}
           <div>
-            <a href='/'>
+            <a href='https://maskboyavi.github.io/SpamHunt_frontend/'>
             <img src={companyLogoWhite} className='h-12 rounded-lg' alt='' />
             </a>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
         {/* List Container */}
         <div className='flex justify-around space-x-32'>
           <div className='flex flex-col space-y-3 text-white'>
-            <a href='/' className='hover:text-orange-400'>
+            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
               About Us
             </a>
             <a href='https://github.com/maskboyAvi' target='__blank' className='hover:text-orange-400'>
@@ -53,18 +53,18 @@ const Footer = () => {
             <a href='https://maskboyavi.github.io/portfolio/' target='__blank' className='hover:text-orange-400'>
               Portfolio
             </a>
-            <a href='/' className='hover:text-orange-400'>
+            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
               Contact Us
             </a>
           </div>
           <div className='flex flex-col space-y-3 text-white'>
-            <a href='/' className='hover:text-orange-400'>
+            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
               Careers
             </a>
-            <a href='/' className='hover:text-orange-400'>
+            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
               Community
             </a>
-            <a href='/' className='hover:text-orange-400'>
+            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
               Privacy Policy
             </a>
           </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                 className='flex-1 px-4 rounded-full focus:outline-none'
                 placeholder='Share your Thoughts...'
               />
-              <button type='submit' className='px-6 py-2 text-white rounded-full bg-orange-500 hover:bg-orange-400 focus:outline-none'>
+              <button type='submit' className='px-6 py-2 text-white rounded-full bg-orange-600 hover:bg-orange-500 focus:outline-none'>
                 Go
               </button>
             </div>

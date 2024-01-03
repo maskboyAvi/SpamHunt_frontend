@@ -19,7 +19,7 @@ function SmsForm() {
       sms: smsContent,
     };
     axios
-      .post("http://localhost:8000/sms/", sms)
+      .post("http://16.171.166.42/sms/", sms)
       .then((response) => {
         setAnswer(response.data);
         // Fetch updated SMS data after posting new SMS
@@ -32,7 +32,7 @@ function SmsForm() {
 
   const fetchSmsData = () => {
     axios
-      .get("http://localhost:8000/sms/")
+      .get("http://16.171.166.42/sms/")
       .then((response) => {
         // Reverse the order of SMS data
         setSmsData(response.data.payload.reverse());
@@ -71,7 +71,7 @@ function SmsForm() {
   return (
     <section
       id="sms-form"
-      className="bg-gradient-to-r from-yellow-200 via-red-200 to-pink-200 py-12"
+      className="bg-gradient-to-r from-yellow-200 via-red-200 to-pink-200 py-12 brightness-90"
     >
       <div className="container mx-auto max-w-screen-md p-6 bg-gradient-to-b from-rose-100 to-orange-200 rounded-md shadow-md">
         <h2 className="text-3xl font-bold text-center mb-6">SMS Hunter</h2>
@@ -183,4 +183,3 @@ function SmsForm() {
 }
 
 export default SmsForm;
-

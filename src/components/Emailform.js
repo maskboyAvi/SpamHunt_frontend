@@ -19,7 +19,7 @@ function EmailForm() {
       mail: mailContent,
     };
     axios
-      .post("http://localhost:8000/mail/", mail)
+      .post("http://16.171.166.42/mail/", mail)
       .then((response) => {
         setAnswer(response.data);
         // Fetch updated mail data after posting new mail
@@ -32,7 +32,7 @@ function EmailForm() {
 
   const fetchMailData = () => {
     axios
-      .get("http://localhost:8000/mail/")
+      .get("http://16.171.166.42/mail/")
       .then((response) => {
         // Reverse the order of mail data
         setMailData(response.data.payload.reverse());
@@ -71,7 +71,7 @@ function EmailForm() {
   return (
     <section
       id="mail-form"
-      className="bg-gradient-to-r from-pink-200 via-red-200 to-yellow-200 py-12"
+      className="bg-gradient-to-r from-pink-200 via-red-200 to-yellow-200 py-12 brightness-90"
     >
       <div className="container mx-auto max-w-screen-md p-6 bg-gradient-to-b from-orange-200 to-rose-100 rounded-md shadow-md">
         <h2 className="text-3xl font-bold text-center mb-6">Email Hunter</h2>

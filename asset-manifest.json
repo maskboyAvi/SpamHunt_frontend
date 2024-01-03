@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SpamHunt_frontend/static/css/main.df65590c.css",
-    "main.js": "/SpamHunt_frontend/static/js/main.412fc889.js",
+    "main.css": "/SpamHunt_frontend/static/css/main.e80a9f80.css",
+    "main.js": "/SpamHunt_frontend/static/js/main.027d4eac.js",
     "static/media/hero_main.svg": "/SpamHunt_frontend/static/media/hero_main.ded828a72d758419d22030a17249ca6a.svg",
     "static/media/logo.png": "/SpamHunt_frontend/static/media/logo.8c13b0ab7544d4c0dc80.png",
     "static/media/icon-github.svg": "/SpamHunt_frontend/static/media/icon-github.3d24443da72733cd4a72f23458eb6830.svg",
@@ -12,11 +12,11 @@
     "static/media/bg-simplify-section-desktop.svg": "/SpamHunt_frontend/static/media/bg-simplify-section-desktop.ca40c1eebd150b1cc7dc.svg",
     "static/media/bg-simplify-section-mobile.svg": "/SpamHunt_frontend/static/media/bg-simplify-section-mobile.a79c8471fa284189552d.svg",
     "static/media/bg-tablet-pattern.svg": "/SpamHunt_frontend/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e.svg",
-    "main.df65590c.css.map": "/SpamHunt_frontend/static/css/main.df65590c.css.map",
-    "main.412fc889.js.map": "/SpamHunt_frontend/static/js/main.412fc889.js.map"
+    "main.e80a9f80.css.map": "/SpamHunt_frontend/static/css/main.e80a9f80.css.map",
+    "main.027d4eac.js.map": "/SpamHunt_frontend/static/js/main.027d4eac.js.map"
   },
   "entrypoints": [
-    "static/css/main.df65590c.css",
-    "static/js/main.412fc889.js"
+    "static/css/main.e80a9f80.css",
+    "static/js/main.027d4eac.js"
   ]
 }

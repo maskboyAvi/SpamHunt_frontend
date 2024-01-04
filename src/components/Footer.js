@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           {/* Logo */}
           <div>
-            <a href='https://maskboyavi.github.io/SpamHunt_frontend/'>
+            <a href='/SpamHunt_frontend/'>
             <img src={companyLogoWhite} className='h-12 rounded-lg' alt='' />
             </a>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
         {/* List Container */}
         <div className='flex justify-around space-x-32'>
           <div className='flex flex-col space-y-3 text-white'>
-            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
+            <a href='/SpamHunt_frontend/' className='hover:text-orange-400'>
               About Us
             </a>
             <a href='https://github.com/maskboyAvi' target='__blank' className='hover:text-orange-400'>
@@ -53,18 +53,18 @@ const Footer = () => {
             <a href='https://maskboyavi.github.io/portfolio/' target='__blank' className='hover:text-orange-400'>
               Portfolio
             </a>
-            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
+            <a href='/SpamHunt_frontend/' className='hover:text-orange-400'>
               Contact Us
             </a>
           </div>
           <div className='flex flex-col space-y-3 text-white'>
-            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
+            <a href='/SpamHunt_frontend/' className='hover:text-orange-400'>
               Careers
             </a>
-            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
+            <a href='/SpamHunt_frontend/' className='hover:text-orange-400'>
               Community
             </a>
-            <a href='https://maskboyavi.github.io/SpamHunt_frontend/' className='hover:text-orange-400'>
+            <a href='/SpamHunt_frontend/' className='hover:text-orange-400'>
               Privacy Policy
             </a>
           </div>

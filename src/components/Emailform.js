@@ -18,6 +18,7 @@ function EmailForm() {
     const mail = {
       mail: mailContent,
     };
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
     axios
       .post("http://13.53.130.115/mail/", mail)
       .then((response) => {
@@ -31,6 +32,7 @@ function EmailForm() {
   };
 
   const fetchMailData = () => {
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
     axios
       .get("http://13.53.130.115/mail/")
       .then((response) => {
@@ -129,7 +131,7 @@ function EmailForm() {
             </thead>
             <tbody>
               {getVisibleMails().map((mail, index) => (
-                <React.Fragment key={mail.id}> 
+                <React.Fragment key={mail.id}>
                   <tr
                     className={`${
                       mail.label === "Spam"
@@ -148,7 +150,9 @@ function EmailForm() {
                     </td>
                     <td
                       className={`py-2 px-4 border-b ${
-                        mail.label === "Spam" ? "text-red-600" : "text-green-600"
+                        mail.label === "Spam"
+                          ? "text-red-600"
+                          : "text-green-600"
                       }`}
                     >
                       {mail.label}
@@ -183,4 +187,3 @@ function EmailForm() {
 }
 
 export default EmailForm;
-

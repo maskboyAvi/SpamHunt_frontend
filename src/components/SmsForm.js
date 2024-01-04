@@ -18,6 +18,7 @@ function SmsForm() {
     const sms = {
       sms: smsContent,
     };
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
     axios
       .post("http://13.53.130.115/sms/", sms)
       .then((response) => {
@@ -31,6 +32,7 @@ function SmsForm() {
   };
 
   const fetchSmsData = () => {
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
     axios
       .get("http://13.53.130.115/sms/")
       .then((response) => {

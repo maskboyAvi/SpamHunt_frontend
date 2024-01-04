@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SpamHunt_frontend/static/css/main.e80a9f80.css",
-    "main.js": "/SpamHunt_frontend/static/js/main.8ac0251b.js",
+    "main.js": "/SpamHunt_frontend/static/js/main.63dfa9ef.js",
     "static/media/hero_main.svg": "/SpamHunt_frontend/static/media/hero_main.ded828a72d758419d22030a17249ca6a.svg",
     "static/media/logo.png": "/SpamHunt_frontend/static/media/logo.8c13b0ab7544d4c0dc80.png",
     "static/media/icon-github.svg": "/SpamHunt_frontend/static/media/icon-github.3d24443da72733cd4a72f23458eb6830.svg",
@@ -13,10 +13,10 @@
     "static/media/bg-simplify-section-mobile.svg": "/SpamHunt_frontend/static/media/bg-simplify-section-mobile.a79c8471fa284189552d.svg",
     "static/media/bg-tablet-pattern.svg": "/SpamHunt_frontend/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e.svg",
     "main.e80a9f80.css.map": "/SpamHunt_frontend/static/css/main.e80a9f80.css.map",
-    "main.8ac0251b.js.map": "/SpamHunt_frontend/static/js/main.8ac0251b.js.map"
+    "main.63dfa9ef.js.map": "/SpamHunt_frontend/static/js/main.63dfa9ef.js.map"
   },
   "entrypoints": [
     "static/css/main.e80a9f80.css",
-    "static/js/main.8ac0251b.js"
+    "static/js/main.63dfa9ef.js"
   ]
 }
